@@ -1,11 +1,11 @@
 import axios from "axios";
-import {API_URL, TOKEN} from "@/shared/config/api";
+import {API_URL} from "@/shared/config/api";
 import {createEffect} from "effector";
 
 export const axiosInstance = axios.create({
     baseURL: API_URL,
     headers: {
-        "Authorization": `bearer ${TOKEN}`,
+        "Authorization": `bearer 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`,
         'Content-Type': 'application/json',
     },
 })
