@@ -1,10 +1,10 @@
 import {createRoute, createRouterControls} from "atomic-router"
 
 export enum ROUTES {
-    HOME = "/",
-    REPO = "/repository/:userName/:repoName",
-    SEARCH_REPO = "/search-repositories",
-    NOT_FOUND = "/not_found",
+    HOME = "/test",
+    REPO = " /test/:userName/:repoName",
+    SEARCH_REPO = "/test/search-repositories",
+    NOT_FOUND = " /test/not_found",
 }
 
 export const routes = {
